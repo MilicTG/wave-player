@@ -23,7 +23,6 @@
   padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
   transition: all 0.75s ease-out;
-
   img {
     width: 30%;
   }
@@ -48,6 +47,12 @@
 
 .selected {
   background: rgb(195, 211, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
 }
 
 * {
